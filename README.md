@@ -9,7 +9,7 @@ Tutorial Being Followed: Corey Schafer Django Tutorial - https://youtube.com/pla
 ### Requirements:
 1. Python
 2. Pip
-3. Flask
+3. Django
 4. A text editor
 
 ### Steps
