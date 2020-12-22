@@ -40,7 +40,7 @@ pip 20.3.3
 3. If your version of pip is earlier than this, you need to install the latest version of pip.
 4. Install Pip: https://pip.pypa.io/en/stable/installing/
 
-<a name="part-3"></a>
+<a name="section-1"></a>
 #### 3. Install Django
 1. First check if Django is installed or not by opening your terminal and typing the following command.
 ```
@@ -57,7 +57,7 @@ python -m django --verison
 pip install django
 ```
 5. Make sure Django installed correctly by checking the version again
-  1. Repeat Step 1 and 2 in [Part 3. Install Django](#part-3)
+  1. If [step 1 from Part 3. "Install Django"](#section-1) runs properly, then Django is installed properly.
     * See https://www.djangoproject.com/download/ for further installation documentation.
 
 
@@ -73,18 +73,6 @@ python manage.py runserver
 ### 4. If there are no errors, your output should look like the following:
 
 ```
-Watching for file changes with StatReloader
-Performing system checks...
-
-System check identified no issues (0 silenced).
-
-You have 18 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
-Run 'python manage.py migrate' to apply them.
-December 22, 2020 - 18:51:30
-Django version 3.1.4, using settings 'django_project.settings'
-Starting development server at http://127.0.0.1:8000/
-Quit the server with CONTROL-C.
-
 ```
 
 ### 5. Open your web browser and navigate to the site provided in the final line of the output message
