@@ -43,6 +43,7 @@ pip 20.3.3
 <a name="part-3"></a>
 #### 3. Install Django
 1. First check if Django is installed or not by opening your terminal and typing the following command.
+If there are problems with this, follow along with [Verifying Django Installation](#Verifying-Django)
 ```
 python -m django --verison
 ```
@@ -58,8 +59,17 @@ pip install django
 ```
 5. Make sure Django installed correctly by checking the version again
   1. Repeat Step 1 and 2 in [Part 3. Install Django](#part-3)
-    * See https://www.djangoproject.com/download/ for further installation documentation.
+      * See https://www.djangoproject.com/download/ for further installation documentation.
 
+<a name="Verifying-Django"></a>
+#### Verifying Django Installation
+1. To verify that Django can be seen by Python, type python from your shell. Then at the Python prompt, try to import Django:
+```
+>>> import django
+>>> print(django.get_version())
+3.2
+```
+* You may have another version of Django installed.
 
 ## Running The Web App
 ### 1. Clone this repo
