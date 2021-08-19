@@ -5,14 +5,31 @@ This is a basic web application that has a blog home page and a blog about page.
 
 Tutorial Being Followed: Corey Schafer Django Tutorial - https://youtube.com/playlist?list=PL-osiE80TeTtoQCKZ03TU5fNfx2UY6U4p
 
+## Table of contents
+1. [Set Up](#setup)
+    1. [Requirements](#requirements)
+    2. [Steps](#creating-django-project)
+        1. [Installing Python](#part-1)
+        2. [Installing PIP](#part-2)
+        3. [Installing Django](#part-3)
+        3. [Verifying Django](#part-4)
+2. [Running The Web App](#running-the-web-app)
+3. [Creating Your Own Django Project](#creating-your-own-django-project)
+
+<a name="setup"></a>
 ## Set Up:
+
+<a name="requirements"></a>
 ### Requirements:
 1. Python
 2. Pip
 3. Django
 4. A text editor
 
+<a name="steps"></a>
 ### Steps
+
+<a name="part-1"></a>
 #### 1. Install Python
 1. First check if python is installed or not by opening your terminal and typing the following command.
 ```
@@ -26,6 +43,7 @@ Python 3.8.5
 3. If your version of python is earlier than this, you need to install the latest version of python.
 4. Install python: https://www.python.org/downloads/
 
+<a name="part-2"></a>
 #### 2. Install Pip
 1. First check if pip is properly installed or not by opening your terminal and typing the following command:
 ```
@@ -43,7 +61,7 @@ pip 20.3.3
 <a name="part-3"></a>
 #### 3. Install Django
 1. First check if Django is installed or not by opening your terminal and typing the following command.
-If there are problems with this, follow along with [Verifying Django Installation](#Verifying-Django)
+If there are problems with this, follow along with [Verifying Django Installation](#part-4)
 ```
 python -m django --verison
 ```
@@ -61,8 +79,8 @@ pip install django
   1. Repeat Step 1 and 2 in [Part 3. Install Django](#part-3)
       * See https://www.djangoproject.com/download/ for further installation documentation.
 
-<a name="Verifying-Django"></a>
-#### Verifying Django Installation
+<a name="part-4"></a>
+#### 4. Verifying Django Installation
 1. To verify that Django can be seen by Python, type python from your shell. Then at the Python prompt, try to import Django:
 ```
 >>> import django
@@ -71,6 +89,7 @@ pip install django
 ```
 * You may have another version of Django installed.
 
+<a name="running-the-web-app"></a>
 ## Running The Web App
 ### 1. Clone this repo
 ### 2. Navigate to the directory (within the terminal) where you saved this repo
@@ -101,3 +120,7 @@ Quit the server with CONTROL-C.
  * You can also replace the `127.0.0.1` with `localhost`
  * eg. instead of navigating to http://127.0.0.1:8000/ you can navigate to http://localhost:8000/
  * this will take you to the `Blog Home Page`. Navigate to http://localhost:8000/about to visit the `About Page`
+
+<a name="creating-your-own-django-project"></a>
+## Creating Your Own Django Project
+For a more detailed tutorial on starting your own django project instead of running this pre built one, see the [Setting up Your Own Django Project README](https://th.bing.com/th/id/OIP.__0_HtU_sYrzKGJV3tjYTwHaHa?pid=ImgDet&rs=1)
