@@ -26,6 +26,7 @@ Tutorial Being Followed: Corey Schafer Django Tutorial - https://youtube.com/pla
 2. Pip
 3. Django
 4. A text editor
+
 [Table of Contents](#table-of-contents)
 
 <a name="steps"></a>
@@ -44,6 +45,7 @@ Python 3.8.5
 
 3. If your version of python is earlier than this, you need to install the latest version of python.
 4. Install python: https://www.python.org/downloads/
+
 [Table of Contents](#table-of-contents)
 
 <a name="part-2"></a>
@@ -60,6 +62,7 @@ pip 20.3.3
 
 3. If your version of pip is earlier than this, you need to install the latest version of pip.
 4. Install Pip: https://pip.pypa.io/en/stable/installing/
+
 [Table of Contents](#table-of-contents)
 
 <a name="part-3"></a>
@@ -82,6 +85,7 @@ pip install django
 5. Make sure Django installed correctly by checking the version again
   1. Repeat Step 1 and 2 in [Part 3. Install Django](#part-3)
       * See https://www.djangoproject.com/download/ for further installation documentation.
+
 [Table of Contents](#table-of-contents)
 
 <a name="part-4"></a>
@@ -93,6 +97,7 @@ pip install django
 3.2
 ```
 * You may have another version of Django installed.
+
 [Table of Contents](#table-of-contents)
 
 <a name="running-the-web-app"></a>
@@ -126,10 +131,12 @@ Quit the server with CONTROL-C.
  * You can also replace the `127.0.0.1` with `localhost`
  * eg. instead of navigating to http://127.0.0.1:8000/ you can navigate to http://localhost:8000/
  * this will take you to the `Blog Home Page`. Navigate to http://localhost:8000/about to visit the `About Page`
+
 [Table of Contents](#table-of-contents)
 
 <a name="creating-your-own-django-project"></a>
 ## Creating Your Own Django Project
 * For a more detailed tutorial on starting your own django project instead of running this pre built one:
     * See [Setting up Your Own Django Project README](https://th.bing.com/th/id/OIP.__0_HtU_sYrzKGJV3tjYTwHaHa?pid=ImgDet&rs=1)
+
 [Table of Contents](#table-of-contents)
