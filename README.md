@@ -5,10 +5,11 @@ This is a basic web application that has a blog home page and a blog about page.
 
 Tutorial Being Followed: Corey Schafer Django Tutorial - https://youtube.com/playlist?list=PL-osiE80TeTtoQCKZ03TU5fNfx2UY6U4p
 
-## Table of contents
+<a name="table-of-contents"></a>
+## Table of Contents
 1. [Set Up](#setup)
     1. [Requirements](#requirements)
-    2. [Steps](#creating-django-project)
+    2. [Steps](#steps)
         1. [Installing Python](#part-1)
         2. [Installing PIP](#part-2)
         3. [Installing Django](#part-3)
@@ -25,6 +26,7 @@ Tutorial Being Followed: Corey Schafer Django Tutorial - https://youtube.com/pla
 2. Pip
 3. Django
 4. A text editor
+[Table of Contents](#table-of-contents)
 
 <a name="steps"></a>
 ### Steps
@@ -42,6 +44,7 @@ Python 3.8.5
 
 3. If your version of python is earlier than this, you need to install the latest version of python.
 4. Install python: https://www.python.org/downloads/
+[Table of Contents](#table-of-contents)
 
 <a name="part-2"></a>
 #### 2. Install Pip
@@ -57,6 +60,7 @@ pip 20.3.3
 
 3. If your version of pip is earlier than this, you need to install the latest version of pip.
 4. Install Pip: https://pip.pypa.io/en/stable/installing/
+[Table of Contents](#table-of-contents)
 
 <a name="part-3"></a>
 #### 3. Install Django
@@ -78,6 +82,7 @@ pip install django
 5. Make sure Django installed correctly by checking the version again
   1. Repeat Step 1 and 2 in [Part 3. Install Django](#part-3)
       * See https://www.djangoproject.com/download/ for further installation documentation.
+[Table of Contents](#table-of-contents)
 
 <a name="part-4"></a>
 #### 4. Verifying Django Installation
@@ -88,18 +93,19 @@ pip install django
 3.2
 ```
 * You may have another version of Django installed.
+[Table of Contents](#table-of-contents)
 
 <a name="running-the-web-app"></a>
 ## Running The Web App
-### 1. Clone this repo
-### 2. Navigate to the directory (within the terminal) where you saved this repo
-### 3. Run the `manage.py` file to start the server.
+#### 1. Clone this repo
+#### 2. Navigate to the directory (within the terminal) where you saved this repo
+#### 3. Run the `manage.py` file to start the server.
 * Run the following command
 ```
 python manage.py runserver
 ```
 
-### 4. If there are no errors, your output should look like the following:
+#### 4. If there are no errors, your output should look like the following:
 
 ```
 Watching for file changes with StatReloader
@@ -116,11 +122,14 @@ Quit the server with CONTROL-C.
 
 ```
 
-### 5. Open your web browser and navigate to the site provided in the final line of the output message
+#### 5. Open your web browser and navigate to the site provided in the final line of the output message
  * You can also replace the `127.0.0.1` with `localhost`
  * eg. instead of navigating to http://127.0.0.1:8000/ you can navigate to http://localhost:8000/
  * this will take you to the `Blog Home Page`. Navigate to http://localhost:8000/about to visit the `About Page`
+[Table of Contents](#table-of-contents)
 
 <a name="creating-your-own-django-project"></a>
 ## Creating Your Own Django Project
-For a more detailed tutorial on starting your own django project instead of running this pre built one, see the [Setting up Your Own Django Project README](https://th.bing.com/th/id/OIP.__0_HtU_sYrzKGJV3tjYTwHaHa?pid=ImgDet&rs=1)
+* For a more detailed tutorial on starting your own django project instead of running this pre built one:
+    * See [Setting up Your Own Django Project README](https://th.bing.com/th/id/OIP.__0_HtU_sYrzKGJV3tjYTwHaHa?pid=ImgDet&rs=1)
+[Table of Contents](#table-of-contents)
