@@ -137,6 +137,6 @@ Quit the server with CONTROL-C.
 <a name="creating-your-own-django-project"></a>
 ## Creating Your Own Django Project
 * For a more detailed tutorial on starting your own django project instead of running this pre built one:
-    * See [Setting up Your Own Django Project README](https://th.bing.com/th/id/OIP.__0_HtU_sYrzKGJV3tjYTwHaHa?pid=ImgDet&rs=1)
+    * See [Creating Your Own Django Project README](https://github.com/M4GICB/hello_world_django/blob/main/creating_your_own_django_project.md)
 
 [Table of Contents](#table-of-contents)
